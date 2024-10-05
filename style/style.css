@@ -1,82 +1,74 @@
 @import url(./global.css);
 @import url(./grid.css);
+@import url(./navbar.css);
 
 header {
     background-color: var(--color-green);
     padding-bottom: 200px;
+    position: relative;
 }
 
-.navbar {
-    padding: 40px 0;
+header .container {
+    display: flex;
+    justify-content: end;
 }
 
-.navbar-left {
-    gap: 155px;
+.hero {
+    margin-top: 600px;
 }
 
-.logo-text {
+.hero-top {
+    background-color: var(--color-dark2);
+    border-radius: 10px;
+
+    margin-bottom: 300px;
+    padding: 264px 60px 66px;
+}
+
+.hero .hero-top .hero-top-text {
     font-family: Futura PT;
-    font-size: 14px;
+    font-size: 28px;
     font-weight: 400;
-    line-height: 18.9px;
+    line-height: 42px;
     text-align: left;
 
-    color: var(--color-green-light);
-}
-
-.navbar-right .nav-menu {
-    gap: 60px;
-}
-
-.navbar-right .nav-menu .nav-item a {
-    font-family: Futura PT;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 27px;
-    text-align: left;
     color: var(--color-white);
 }
 
-.navbar-right .navbar-menu-btn {
-    font-family: Futura PT;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 24.3px;
-    text-align: left;
-    color: var(--color-white);
-
-    padding: 20px 40px;
-    border: 2px solid var(--color-green-light);
-    background-color: transparent;
-    border-radius: 31px;
-    margin: 0 96px 0 60px;
-
-    gap: 15px;
+.hero .hero-top img {
+    margin: 32px 0 30px;
 }
 
-.navbar-right .number {
-    text-align: right;
-}
-
-.navbar-right .number .number-time,
-.navbar-right .number .number-num {
-    display: block;
-}
-
-.navbar-right .number .number-time {
-    font-family: Futura PT;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18.9px;
-
-    color: var(--color-green-light);
-}
-
-.navbar-right .number .number-num {
+.hero .hero-bottom .hero-bottom-text {
     font-family: Futura PT;
     font-size: 26px;
     font-weight: 400;
     line-height: 39px;
+    text-align: left;
 
     color: var(--color-white);
+    margin-bottom: 100px;
+
+}
+
+.hero .hero-bottom img {
+    margin-bottom: 20px;
+}
+
+.absolutes .bg-text {
+    position: absolute;    
+    left: 0;
+    top: 244px;
+}
+
+.absolutes .bg-chair {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.absolutes .bg-lamp {
+    position: absolute;
+    right: 0;
+    top: 169px;
 }
