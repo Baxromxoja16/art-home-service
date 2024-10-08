@@ -1,0 +1,75 @@
+
+.navbar {
+    padding: 40px 0;
+}
+
+.navbar-left {
+    gap: 155px;
+}
+
+.logo-text {
+    font-family: Futura PT;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    text-align: left;
+
+    color: var(--color-green-light);
+}
+
+.navbar-right .nav-menu {
+    gap: 60px;
+}
+
+.navbar-right .nav-menu .nav-item a {
+    font-family: Futura PT;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: var(--color-white);
+}
+
+.navbar-right .navbar-menu-btn {
+    font-family: Futura PT;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.3px;
+    text-align: left;
+    color: var(--color-white);
+
+    padding: 20px 40px;
+    border: 2px solid var(--color-green-light);
+    background-color: transparent;
+    border-radius: 31px;
+    margin: 0 96px 0 60px;
+
+    gap: 15px;
+}
+
+.navbar-right .number {
+    text-align: right;
+}
+
+.navbar-right .number .number-time,
+.navbar-right .number .number-num {
+    display: block;
+}
+
+.navbar-right .number .number-time {
+    font-family: Futura PT;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+
+    color: var(--color-green-light);
+}
+
+.navbar-right .number .number-num {
+    font-family: Futura PT;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 39px;
+
+    color: var(--color-white);
+}
