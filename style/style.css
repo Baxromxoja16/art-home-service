@@ -133,3 +133,64 @@ header .container {
     border-bottom-left-radius: 10px;
     padding-right: 15px;
 }
+
+/* ============================== Out work section */
+
+.out-work {
+    background-color: var(--color-green);
+    padding: 200px 0;
+}
+
+.out-work .section-title-gradient{ 
+    margin-bottom: 100px;
+}
+
+.out-work .out-work-content {
+    display: flex;
+    gap: 270px;
+}
+
+.out-work .out-work-content .content-left,
+.out-work .out-work-content .content-right {
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    width: 570px;
+}
+
+.out-work .out-work-content .content-left {
+    padding-top: 200px;
+}
+
+.out-work .out-work-content .content-card .card-title{
+    font-family: Futura PT;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: left;
+    color: var(--color-white);
+    margin-bottom: 10px;
+}
+
+.out-work .out-work-content .content-card .card-description{
+    font-family: Futura PT;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    
+    color: var(--color-green-light);
+    margin-bottom: 30px;
+}
+
+.out-work .out-work-content .content-card .images .image-bottom {
+    display: flex;
+    gap: 30px;
+    width: 90px;
+    height: 70px;
+    margin-top: 30px;
+}
+
+.out-work .out-work-content .content-card .images .image-bottom img {
+    width: 100%;
+}
