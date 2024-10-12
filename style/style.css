@@ -194,3 +194,64 @@ header .container {
 .out-work .out-work-content .content-card .images .image-bottom img {
     width: 100%;
 }
+
+/* ================== slide start */
+
+.slide {
+    padding: 148px 0;
+    background-color: var(--color-dark);
+    position: relative;
+    height: 930px;
+    overflow: hidden;
+}
+
+.slide .title-image {
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+
+.slide .slider {
+    position: relative;
+    padding-left: 500px;
+}
+
+.slide .slider .position-slider {
+    position: absolute;
+}
+
+.slider .position-slider .slider-list {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+.slider .position-slider .list-bottom {
+    margin-top: 160px;
+    padding-left: 360px;
+}
+
+.slider .position-slider .slider-list .slider-card{
+    width: 450px;
+}
+
+.slider .position-slider .slider-list .slider-card-title {
+    font-family: Futura PT;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+
+    color: var(--color-white);
+    margin-bottom: 30px;
+}
+
+.slider .position-slider .slider-list .slider-card-description {
+    font-family: Futura PT;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 39px;
+    text-align: left;
+
+    color: var(--color-gray);
+}
