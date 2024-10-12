@@ -255,3 +255,121 @@ header .container {
 
     color: var(--color-gray);
 }
+
+/* ==================== calc */
+
+.calc {
+    padding: 200px 0;
+    background-color: var(--color-green);
+    position: relative;
+}
+
+.calc .position-bg {
+    position: absolute;
+    right: 0;
+    top: 194px;
+}
+
+.calc .section-title-gradient {
+    text-align: left;
+}
+
+.calc .choose-pocket {
+    margin-top: 100px;
+}
+
+.calc .choose-pocket .pocket-title {
+    font-family: Futura PT;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+
+    color: var(--color-white);
+    margin-bottom: 60px;
+}
+
+.calc .choose-pocket .pocket-cards {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+
+.calc .choose-pocket .pocket-cards .pocket-card {
+    width: 410px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.calc .choose-pocket .pocket-cards .pocket-card .card-top {
+    padding: 40px 40px 80px;
+    background-color: var(--color-dark2);
+    background-image: url(../images/card-bg.png);
+}
+
+.calc .choose-pocket .pocket-cards .pocket-card .card-top .card-choose {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.calc .choose-pocket .pocket-cards .pocket-card .card-top .card-choose span {
+    font-family: Futura PT;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: left;
+
+    color: var(--color-white);
+}
+.calc .choose-pocket .pocket-cards .pocket-card .card-top .card-choose span span {
+    background: linear-gradient(90deg, #FDC4A6 0%, #A9796B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.calc .choose-pocket .pocket-cards .pocket-card .card-top .card-choose input {
+    width: 26px;
+    height: 26px;
+
+    accent-color: var(--color-green-light);
+}
+
+.calc .choose-pocket .pocket-cards .pocket-card .card-top .card-description {
+    font-family: Futura PT;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 39px;
+    text-align: left;
+
+    color: var(--color-green-light);
+}
+
+.calc .choose-pocket .button-cash {
+    padding: 31px 40px;
+    margin-top: 100px;
+    border-radius: 10px;
+    background-color: var(--color-dark2);
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.calc .choose-pocket .button-cash input {
+    width: 26px;
+    height: 26px;
+    border-radius: 3px;
+    background: linear-gradient(90deg, #FDC4A6 0%, #A9796B 100%);
+
+}
+
+.calc .choose-pocket .button-cash label {
+    font-family: Futura PT;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.3px;
+    text-align: left;
+    color: var(--color-white);
+
+}
